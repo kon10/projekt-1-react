@@ -1,0 +1,60 @@
+.landing-page {
+    height: calc(100vh - 50px);
+    background-image: url(https://wallpapercave.com/wp/7gGFnlh.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 18px;
+    padding: 0;
+}
+
+.landing-page-shadow {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.3);
+}
+
+.container-text {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.landing-page h1, .landing-page h2 {
+    color: white;
+}
+
+.landing-page h2 {
+    font-weight: bold;
+}
+
+.offerBtn {
+    width: 164px;
+    height: 40px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+@media (min-width: 425px) {
+    .container-text h1 {
+    width: 70%; 
+    word-wrap: break-word;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-text {
+        display: flex;
+        flex-flow: column wrap;
+        height:100%;
+    }
+}
