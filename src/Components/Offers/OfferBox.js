@@ -1,6 +1,6 @@
 import React from 'react';
 
-function OfferBox({ title, isNew }) {
+function OfferBox({ title, isNew, key }) {
     return (
         <div className={`offers-wrapper-box`}>
             <div className={`${isNew ? 'offers-dott' : ''}`}></div>
